@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Inter;
+    src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+}
+:root {
+    font-family: Inter;
+}
+body {
+    width: 1280px;
+    margin: 0 auto;
+}

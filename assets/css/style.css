@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Inter;
+    src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+}
+:root {
+    font-family: Inter;
+}
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+/*//header//*/
+nav {
+    display: flex;
+    gap: 34px;
+    justify-content: baseline;
+    justify-content: right;
+    padding-top: 10px;
+    border: 2px solid lightgray;
+}
+img {
+    padding-bottom: 4px;
+    padding-left: 2px;
+}
+h4 {
+    justify-content: left;
+}
+ul {
+    display: flex;    
+}
+li {
+    justify-content: end;
+}
+/*//section.hero//*/
+
+/*//section.blog//*/
