@@ -8,34 +8,39 @@
     src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
 }
 :root {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
 }
 body {
-    width: 1280px;
     margin: 0 auto;
+    width: 1280px;
 }
-/*//header//*/
-nav {
+/*//nav//*/
+.navbar {
+    background: #eee;
     display: flex;
-    gap: 34px;
-    justify-content: baseline;
-    justify-content: right;
-    padding-top: 10px;
-    border: 2px solid lightgray;
-}
-img {
-    padding-bottom: 4px;
-    padding-left: 2px;
+    padding-top: 14px;
+    padding-bottom: 10px;
 }
 h4 {
-    justify-content: left;
+    margin-right: auto;
 }
-ul {
-    display: flex;    
+.navbar ul {
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    list-style: none;
 }
-li {
-    justify-content: end;
+.navbar a {
+    text-decoration: none;
+    color: black;
 }
 /*//section.hero//*/
-
-/*//section.blog//*/
+.hero {
+    display: flex;
+    padding-top: 44px;
+    flex-direction: row-reverse;
+}
+.hero h2 {
+    justify-content: flex-start;
+}
